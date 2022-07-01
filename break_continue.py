@@ -1,3 +1,6 @@
+from typing import TextIO
+
+
 def run():
     # for contador in range(1000):
     #     if contador % 2 = 0:
@@ -10,7 +13,7 @@ def run():
     #         break
  
     testo = input('Escribe un texto: ')
-    for letra in texto:
+    for letra in TextIO:
         if letra == 'o':
             break
         print(letra)
